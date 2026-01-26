@@ -5,11 +5,9 @@ import App from './App.tsx'
 import { Provider } from 'react-redux'
 import store from './redux/store/index.ts'
 import { BrowserRouter } from 'react-router'
-import { Analytics } from "@vercel/analytics/next"
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Analytics/>
     <Provider store={store}>
       <BrowserRouter>
         <App />
