@@ -1,0 +1,28 @@
+install redux package
+=====================
+npm i redux react-redux
+
+
+Redux
+
+UI > User Event > Action > Reducer > Store > State > UI
+
+Data Carry = > Action ( Type , payload{data})
+
+redux dev-tools install
+========================
+npm install redux-devtools-extension --legacy-peer-deps
+
+Router
+======
+npm i react-router react-router-dom
+
+api_key
+=======
+https://api.themoviedb.org/3/movie/now_playing?api_key=c46d50b93406201011621935eecbd89b
+
+movie detail api
+================
+https://api.themoviedb.org/3/movie/{movie_id}?api_key=c46d50b93406201011621935eecbd89b
+
+https://api.themoviedb.org/3/search/movie?query=SEARCH_DATA&api_key=c46d50b93406201011621935eecbd89b
